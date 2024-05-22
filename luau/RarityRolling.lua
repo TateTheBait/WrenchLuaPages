@@ -48,6 +48,7 @@ end
 
 print(roll) -- Tells you the rarity in console.
 module.roll = roll -- Make sure your serverscript can read the part/rarity.
+return module -- send to server script
 --________________________________________________________________________________________
 
 
